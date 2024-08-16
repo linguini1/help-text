@@ -1,0 +1,26 @@
+help-text
+Matteo Golin, 2024
+
+DESCRIPTION:
+    help-text is a command line utility for generating C macro `#define`
+    substitutions for plain-text input, most commonly help text.
+
+    Generated macros can then be included within a C project and
+    printed/manipulated easily as the program requires.
+    
+    This program's source is freely available on GitHub under the MIT license.
+
+USAGE:
+    help-text [options]
+
+OPTIONS:
+    -h                 Display this help message and quit.
+    -i <input file>    Specify the input file to get the help text from. If no
+                       input file is provided, help-text will read from stdin.
+    -o <output file>   Specify the output file to write the help text macro to.
+                       If no output file is provided, help-text will print its
+                       output to stdout.
+    -l <width>         Specify the line width to conform the macro to. Default
+                       is 80 columns.
+    -n <name>          Change the name of the macro being generated. Default is
+                       "HELP_TEXT".
