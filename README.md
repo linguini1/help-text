@@ -8,7 +8,8 @@ turn a help text document into printable help text from within C for command lin
 Clone the git repository and make:
 
 ```console
-git clone <TODO>
+git clone https://github.com/linguini1/help-text.git
+cd help-text
 make all
 ```
 
